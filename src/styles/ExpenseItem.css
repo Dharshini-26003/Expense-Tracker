@@ -1,0 +1,17 @@
+.expense-item {
+  background-color: #ffe9fc;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.expense-item button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}

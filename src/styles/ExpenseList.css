@@ -1,0 +1,29 @@
+.expense-list {
+  background-color: pink;
+  padding: 20px;
+}
+
+.summary-boxes {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.box {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+}
+
+.income {
+  background-color: green;
+}
+
+.expense {
+  background-color: red;
+}
+
+.balance {
+  background-color: blue;
+}

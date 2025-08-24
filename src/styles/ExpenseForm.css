@@ -1,0 +1,39 @@
+.expense-form {
+  background-color: purple;
+  padding: 20px;
+  border-radius: 10px;
+  display: grid;
+  gap: 15px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.expense-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.expense-form input,
+.expense-form select {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.expense-form button {
+  background-color: blue;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.expense-form button:hover {
+  background-color: darkblue;
+}
